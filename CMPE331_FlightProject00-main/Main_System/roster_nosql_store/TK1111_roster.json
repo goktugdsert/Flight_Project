@@ -1,0 +1,594 @@
+{
+    "flight_number": "TK1111",
+    "roster_id": 19,
+    "created_at": "2025-12-17 13:08:04",
+    "shared_flight": {
+        "is_shared": false,
+        "airline": null,
+        "flight_number": null
+    },
+    "crew": [
+        {
+            "name": "Millie Lawrence",
+            "role": "SENIOR",
+            "type": "PILOT",
+            "id": "P19"
+        },
+        {
+            "name": "Sarah Brown",
+            "role": "JUNIOR",
+            "type": "PILOT",
+            "id": "P15"
+        },
+        {
+            "name": "Eve Thomas",
+            "role": "CHEF",
+            "type": "CABIN",
+            "id": "C19"
+        },
+        {
+            "name": "Frank Anderson",
+            "role": "CHIEF",
+            "type": "CABIN",
+            "id": "C2"
+        },
+        {
+            "name": "Alice Anderson",
+            "role": "REGULAR",
+            "type": "CABIN",
+            "id": "C8"
+        },
+        {
+            "name": "Alice Harris",
+            "role": "REGULAR",
+            "type": "CABIN",
+            "id": "C4"
+        },
+        {
+            "name": "Bob Harris",
+            "role": "REGULAR",
+            "type": "CABIN",
+            "id": "C14"
+        },
+        {
+            "name": "Bob Harris",
+            "role": "REGULAR",
+            "type": "CABIN",
+            "id": "C18"
+        }
+    ],
+    "passengers": [
+        {
+            "name": "Austin Perry",
+            "seat": null,
+            "is_infant": false,
+            "id": 25156,
+            "type": "business"
+        },
+        {
+            "name": "Rebecca Mann",
+            "seat": null,
+            "is_infant": false,
+            "id": 25204,
+            "type": "economy"
+        },
+        {
+            "name": "Mark Glenn",
+            "seat": null,
+            "is_infant": true,
+            "id": 25228,
+            "type": null
+        },
+        {
+            "name": "Pamela Gardner",
+            "seat": null,
+            "is_infant": true,
+            "id": 25229,
+            "type": null
+        },
+        {
+            "name": "Gail Lynch",
+            "seat": "10A",
+            "is_infant": false,
+            "id": 25194,
+            "type": "economy"
+        },
+        {
+            "name": "Dr. Alvin Hall Jr.",
+            "seat": "10B",
+            "is_infant": false,
+            "id": 25206,
+            "type": "economy"
+        },
+        {
+            "name": "Mike Sims",
+            "seat": "10E",
+            "is_infant": false,
+            "id": 25189,
+            "type": "economy"
+        },
+        {
+            "name": "Elizabeth Ashley",
+            "seat": "10F",
+            "is_infant": false,
+            "id": 25213,
+            "type": "economy"
+        },
+        {
+            "name": "David Cervantes",
+            "seat": "11A",
+            "is_infant": false,
+            "id": 25209,
+            "type": "economy"
+        },
+        {
+            "name": "David Buck",
+            "seat": "11C",
+            "is_infant": false,
+            "id": 25158,
+            "type": "economy"
+        },
+        {
+            "name": "Sharon Moore",
+            "seat": "11E",
+            "is_infant": false,
+            "id": 25210,
+            "type": "economy"
+        },
+        {
+            "name": "Jennifer Bryan",
+            "seat": "12A",
+            "is_infant": false,
+            "id": 25202,
+            "type": "economy"
+        },
+        {
+            "name": "Mary Fitzpatrick",
+            "seat": "13E",
+            "is_infant": false,
+            "id": 25179,
+            "type": "economy"
+        },
+        {
+            "name": "Jennifer Harrell",
+            "seat": "13F",
+            "is_infant": false,
+            "id": 25184,
+            "type": "economy"
+        },
+        {
+            "name": "James Rasmussen",
+            "seat": "14C",
+            "is_infant": false,
+            "id": 25211,
+            "type": "economy"
+        },
+        {
+            "name": "Olivia Miller",
+            "seat": "15C",
+            "is_infant": false,
+            "id": 25191,
+            "type": "economy"
+        },
+        {
+            "name": "Maria Nielsen",
+            "seat": "15E",
+            "is_infant": false,
+            "id": 25197,
+            "type": "economy"
+        },
+        {
+            "name": "Andrew Patel",
+            "seat": "16B",
+            "is_infant": false,
+            "id": 25171,
+            "type": "economy"
+        },
+        {
+            "name": "Judy Garcia",
+            "seat": "16C",
+            "is_infant": false,
+            "id": 25178,
+            "type": "economy"
+        },
+        {
+            "name": "Katrina Cox",
+            "seat": "17A",
+            "is_infant": false,
+            "id": 25176,
+            "type": "economy"
+        },
+        {
+            "name": "Benjamin Johnson",
+            "seat": "17B",
+            "is_infant": false,
+            "id": 25187,
+            "type": "economy"
+        },
+        {
+            "name": "Ronald Kerr",
+            "seat": "18F",
+            "is_infant": false,
+            "id": 25159,
+            "type": "economy"
+        },
+        {
+            "name": "Linda Carlson",
+            "seat": "19B",
+            "is_infant": false,
+            "id": 25183,
+            "type": "economy"
+        },
+        {
+            "name": "Antonio Hall",
+            "seat": "19D",
+            "is_infant": false,
+            "id": 25205,
+            "type": "economy"
+        },
+        {
+            "name": "Kyle Mathews",
+            "seat": "1C",
+            "is_infant": false,
+            "id": 25155,
+            "type": "business"
+        },
+        {
+            "name": "James Kramer",
+            "seat": "1D",
+            "is_infant": false,
+            "id": 25157,
+            "type": "business"
+        },
+        {
+            "name": "Curtis Smith",
+            "seat": "20C",
+            "is_infant": false,
+            "id": 25198,
+            "type": "economy"
+        },
+        {
+            "name": "Cassie Gonzalez",
+            "seat": "20F",
+            "is_infant": false,
+            "id": 25163,
+            "type": "economy"
+        },
+        {
+            "name": "Lucas Bradley",
+            "seat": "21C",
+            "is_infant": false,
+            "id": 25170,
+            "type": "economy"
+        },
+        {
+            "name": "Kimberly Berry",
+            "seat": "21E",
+            "is_infant": false,
+            "id": 25196,
+            "type": "economy"
+        },
+        {
+            "name": "Daniel Boyd",
+            "seat": "23C",
+            "is_infant": false,
+            "id": 25190,
+            "type": "economy"
+        },
+        {
+            "name": "Michael Lynn",
+            "seat": "23F",
+            "is_infant": false,
+            "id": 25219,
+            "type": "economy"
+        },
+        {
+            "name": "Zachary Brooks",
+            "seat": "24A",
+            "is_infant": false,
+            "id": 25164,
+            "type": "economy"
+        },
+        {
+            "name": "Nancy Armstrong",
+            "seat": "24B",
+            "is_infant": false,
+            "id": 25167,
+            "type": "economy"
+        },
+        {
+            "name": "Jennifer Drake",
+            "seat": "24C",
+            "is_infant": false,
+            "id": 25169,
+            "type": "economy"
+        },
+        {
+            "name": "Diana Alexander DVM",
+            "seat": "24E",
+            "is_infant": false,
+            "id": 25186,
+            "type": "economy"
+        },
+        {
+            "name": "James Hoffman",
+            "seat": "24F",
+            "is_infant": false,
+            "id": 25162,
+            "type": "economy"
+        },
+        {
+            "name": "Kristine Gardner",
+            "seat": "25B",
+            "is_infant": false,
+            "id": 25221,
+            "type": "economy"
+        },
+        {
+            "name": "Alejandra Hughes",
+            "seat": "25D",
+            "is_infant": false,
+            "id": 25168,
+            "type": "economy"
+        },
+        {
+            "name": "Morgan Maynard",
+            "seat": "26C",
+            "is_infant": false,
+            "id": 25161,
+            "type": "economy"
+        },
+        {
+            "name": "Joel Jones",
+            "seat": "26D",
+            "is_infant": false,
+            "id": 25226,
+            "type": "economy"
+        },
+        {
+            "name": "James Williams",
+            "seat": "26E",
+            "is_infant": false,
+            "id": 25201,
+            "type": "economy"
+        },
+        {
+            "name": "Thomas Lopez",
+            "seat": "27F",
+            "is_infant": false,
+            "id": 25174,
+            "type": "economy"
+        },
+        {
+            "name": "Desiree Glenn",
+            "seat": "28C",
+            "is_infant": false,
+            "id": 25185,
+            "type": "economy"
+        },
+        {
+            "name": "Pamela Jones",
+            "seat": "29B",
+            "is_infant": false,
+            "id": 25175,
+            "type": "economy"
+        },
+        {
+            "name": "David Hawkins",
+            "seat": "29E",
+            "is_infant": false,
+            "id": 25227,
+            "type": "economy"
+        },
+        {
+            "name": "Victoria Murphy",
+            "seat": "2D",
+            "is_infant": false,
+            "id": 25193,
+            "type": "business"
+        },
+        {
+            "name": "Sabrina Thompson",
+            "seat": "2F",
+            "is_infant": false,
+            "id": 25220,
+            "type": "business"
+        },
+        {
+            "name": "Alyssa Young",
+            "seat": "30E",
+            "is_infant": false,
+            "id": 25224,
+            "type": "economy"
+        },
+        {
+            "name": "Kristen Jones",
+            "seat": "3C",
+            "is_infant": false,
+            "id": 25172,
+            "type": "business"
+        },
+        {
+            "name": "Cole Park",
+            "seat": "3F",
+            "is_infant": false,
+            "id": 25225,
+            "type": "business"
+        },
+        {
+            "name": "Julie Reeves",
+            "seat": "4C",
+            "is_infant": false,
+            "id": 25212,
+            "type": "business"
+        },
+        {
+            "name": "Jeffrey Smith",
+            "seat": "4F",
+            "is_infant": false,
+            "id": 25154,
+            "type": "business"
+        },
+        {
+            "name": "Jose Perez",
+            "seat": "5C",
+            "is_infant": false,
+            "id": 25195,
+            "type": "business"
+        },
+        {
+            "name": "Kathryn Porter",
+            "seat": "5D",
+            "is_infant": false,
+            "id": 25192,
+            "type": "business"
+        },
+        {
+            "name": "Amanda Brown",
+            "seat": "5F",
+            "is_infant": false,
+            "id": 25216,
+            "type": "business"
+        },
+        {
+            "name": "Robert Perez",
+            "seat": "6A",
+            "is_infant": false,
+            "id": 25177,
+            "type": "economy"
+        },
+        {
+            "name": "Timothy Smith",
+            "seat": "6B",
+            "is_infant": false,
+            "id": 25181,
+            "type": "economy"
+        },
+        {
+            "name": "Megan Padilla",
+            "seat": "6C",
+            "is_infant": false,
+            "id": 25182,
+            "type": "economy"
+        },
+        {
+            "name": "Tracy Knight",
+            "seat": "6D",
+            "is_infant": false,
+            "id": 25160,
+            "type": "economy"
+        },
+        {
+            "name": "Miranda Berry",
+            "seat": "6F",
+            "is_infant": false,
+            "id": 25166,
+            "type": "economy"
+        },
+        {
+            "name": "Virginia Castaneda",
+            "seat": "7A",
+            "is_infant": false,
+            "id": 25188,
+            "type": "economy"
+        },
+        {
+            "name": "Lisa Schwartz",
+            "seat": "7B",
+            "is_infant": false,
+            "id": 25199,
+            "type": "economy"
+        },
+        {
+            "name": "John Hoffman",
+            "seat": "7C",
+            "is_infant": false,
+            "id": 25200,
+            "type": "economy"
+        },
+        {
+            "name": "Rebecca Walker",
+            "seat": "7D",
+            "is_infant": false,
+            "id": 25203,
+            "type": "economy"
+        },
+        {
+            "name": "Jerry Ramos",
+            "seat": "7F",
+            "is_infant": false,
+            "id": 25165,
+            "type": "economy"
+        },
+        {
+            "name": "Debra Jackson",
+            "seat": "8A",
+            "is_infant": false,
+            "id": 25207,
+            "type": "economy"
+        },
+        {
+            "name": "Johnathan Castaneda",
+            "seat": "8B",
+            "is_infant": false,
+            "id": 25208,
+            "type": "economy"
+        },
+        {
+            "name": "Robert Best",
+            "seat": "8C",
+            "is_infant": false,
+            "id": 25180,
+            "type": "economy"
+        },
+        {
+            "name": "Leonard Shah",
+            "seat": "8D",
+            "is_infant": false,
+            "id": 25214,
+            "type": "economy"
+        },
+        {
+            "name": "Sophia Brown",
+            "seat": "8E",
+            "is_infant": false,
+            "id": 25215,
+            "type": "economy"
+        },
+        {
+            "name": "James Wright",
+            "seat": "9A",
+            "is_infant": false,
+            "id": 25217,
+            "type": "economy"
+        },
+        {
+            "name": "Lisa Ray",
+            "seat": "9B",
+            "is_infant": false,
+            "id": 25218,
+            "type": "economy"
+        },
+        {
+            "name": "Christopher Wilson",
+            "seat": "9C",
+            "is_infant": false,
+            "id": 25222,
+            "type": "economy"
+        },
+        {
+            "name": "Elizabeth Davis",
+            "seat": "9D",
+            "is_infant": false,
+            "id": 25223,
+            "type": "economy"
+        },
+        {
+            "name": "Heather Harris",
+            "seat": "9E",
+            "is_infant": false,
+            "id": 25173,
+            "type": "economy"
+        }
+    ]
+}

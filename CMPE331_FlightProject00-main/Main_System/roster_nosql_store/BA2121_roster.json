@@ -1,0 +1,459 @@
+{
+    "flight_number": "BA2121",
+    "roster_id": 11,
+    "created_at": "2025-12-09 11:50:18",
+    "shared_flight": {
+        "is_shared": true,
+        "airline": "Turkish Airlines",
+        "flight_number": "TK1234"
+    },
+    "crew": [
+        {
+            "name": "Eve Thomas",
+            "role": "CHEF",
+            "type": "CABIN",
+            "original_id": 19
+        },
+        {
+            "name": "Frank Anderson",
+            "role": "CHIEF",
+            "type": "CABIN",
+            "original_id": 2
+        },
+        {
+            "name": "Bob Taylor",
+            "role": "REGULAR",
+            "type": "CABIN",
+            "original_id": 12
+        },
+        {
+            "name": "David Williams",
+            "role": "SENIOR",
+            "type": "PILOT",
+            "original_id": 1
+        },
+        {
+            "name": "Millie Lawrence",
+            "role": "SENIOR",
+            "type": "PILOT",
+            "original_id": 19
+        }
+    ],
+    "passengers": [
+        {
+            "name": "Chelsea Hawkins",
+            "seat": "STANDBY",
+            "is_infant": false
+        },
+        {
+            "name": "Matthew Reyes",
+            "seat": "STANDBY",
+            "is_infant": false
+        },
+        {
+            "name": "Lucas Cross",
+            "seat": "STANDBY",
+            "is_infant": false
+        },
+        {
+            "name": "John Green",
+            "seat": "STANDBY",
+            "is_infant": false
+        },
+        {
+            "name": "Ashley Horne",
+            "seat": "STANDBY",
+            "is_infant": false
+        },
+        {
+            "name": "Erin Cisneros",
+            "seat": "STANDBY",
+            "is_infant": false
+        },
+        {
+            "name": "Joseph Sanford",
+            "seat": "INFANT",
+            "is_infant": true
+        },
+        {
+            "name": "Rebecca Cisneros",
+            "seat": "INFANT",
+            "is_infant": true
+        },
+        {
+            "name": "Kathryn Downs",
+            "seat": "10B",
+            "is_infant": false
+        },
+        {
+            "name": "Miss Bethany Lee",
+            "seat": "10D",
+            "is_infant": false
+        },
+        {
+            "name": "Gary Cox",
+            "seat": "11E",
+            "is_infant": false
+        },
+        {
+            "name": "Beth Norris",
+            "seat": "11F",
+            "is_infant": false
+        },
+        {
+            "name": "Mary Martinez",
+            "seat": "12A",
+            "is_infant": false
+        },
+        {
+            "name": "Ryan Porter",
+            "seat": "12C",
+            "is_infant": false
+        },
+        {
+            "name": "Mr. David Garrison",
+            "seat": "12D",
+            "is_infant": false
+        },
+        {
+            "name": "Todd Livingston",
+            "seat": "12E",
+            "is_infant": false
+        },
+        {
+            "name": "Ronald Brown",
+            "seat": "13E",
+            "is_infant": false
+        },
+        {
+            "name": "Betty Shaffer",
+            "seat": "13F",
+            "is_infant": false
+        },
+        {
+            "name": "Dawn Jones",
+            "seat": "14A",
+            "is_infant": false
+        },
+        {
+            "name": "Ronald Wood",
+            "seat": "14C",
+            "is_infant": false
+        },
+        {
+            "name": "Richard Young",
+            "seat": "14D",
+            "is_infant": false
+        },
+        {
+            "name": "Erin Smith",
+            "seat": "15A",
+            "is_infant": false
+        },
+        {
+            "name": "Patricia Sloan",
+            "seat": "15E",
+            "is_infant": false
+        },
+        {
+            "name": "Keith Harris",
+            "seat": "16C",
+            "is_infant": false
+        },
+        {
+            "name": "Cameron Spears",
+            "seat": "16E",
+            "is_infant": false
+        },
+        {
+            "name": "Carla Knapp",
+            "seat": "17C",
+            "is_infant": false
+        },
+        {
+            "name": "Anthony Obrien",
+            "seat": "18B",
+            "is_infant": false
+        },
+        {
+            "name": "Rebecca King",
+            "seat": "18C",
+            "is_infant": false
+        },
+        {
+            "name": "Rhonda Mccormick",
+            "seat": "18F",
+            "is_infant": false
+        },
+        {
+            "name": "David Bender",
+            "seat": "19A",
+            "is_infant": false
+        },
+        {
+            "name": "Laura Rowe",
+            "seat": "19C",
+            "is_infant": false
+        },
+        {
+            "name": "Michelle Fletcher",
+            "seat": "19D",
+            "is_infant": false
+        },
+        {
+            "name": "Judith Lewis",
+            "seat": "19E",
+            "is_infant": false
+        },
+        {
+            "name": "Traci Gill",
+            "seat": "19F",
+            "is_infant": false
+        },
+        {
+            "name": "Kenneth Miller",
+            "seat": "1A",
+            "is_infant": false
+        },
+        {
+            "name": "Yesenia Reynolds",
+            "seat": "1C",
+            "is_infant": false
+        },
+        {
+            "name": "Doris Schmidt",
+            "seat": "1D",
+            "is_infant": false
+        },
+        {
+            "name": "Gabrielle Lowery",
+            "seat": "20B",
+            "is_infant": false
+        },
+        {
+            "name": "Ashley Thompson",
+            "seat": "20D",
+            "is_infant": false
+        },
+        {
+            "name": "Eduardo Kaufman",
+            "seat": "21A",
+            "is_infant": false
+        },
+        {
+            "name": "Allison Little",
+            "seat": "21F",
+            "is_infant": false
+        },
+        {
+            "name": "Sara Walker",
+            "seat": "22B",
+            "is_infant": false
+        },
+        {
+            "name": "Robert Winters",
+            "seat": "23A",
+            "is_infant": false
+        },
+        {
+            "name": "Alexander Thompson",
+            "seat": "23B",
+            "is_infant": false
+        },
+        {
+            "name": "Jesse Hendrix MD",
+            "seat": "23E",
+            "is_infant": false
+        },
+        {
+            "name": "Alison Cooper",
+            "seat": "23F",
+            "is_infant": false
+        },
+        {
+            "name": "Susan Mckee PhD",
+            "seat": "24B",
+            "is_infant": false
+        },
+        {
+            "name": "Mrs. Sandy Morrison",
+            "seat": "24C",
+            "is_infant": false
+        },
+        {
+            "name": "Steven Smith",
+            "seat": "24D",
+            "is_infant": false
+        },
+        {
+            "name": "Barbara Jackson",
+            "seat": "24F",
+            "is_infant": false
+        },
+        {
+            "name": "Joseph Mcintyre",
+            "seat": "25A",
+            "is_infant": false
+        },
+        {
+            "name": "Susan Scott",
+            "seat": "25D",
+            "is_infant": false
+        },
+        {
+            "name": "Jose Reed",
+            "seat": "25E",
+            "is_infant": false
+        },
+        {
+            "name": "Kimberly Davis",
+            "seat": "26D",
+            "is_infant": false
+        },
+        {
+            "name": "Elizabeth Farrell",
+            "seat": "26E",
+            "is_infant": false
+        },
+        {
+            "name": "Tiffany Lee",
+            "seat": "27A",
+            "is_infant": false
+        },
+        {
+            "name": "Kathleen Davis",
+            "seat": "27C",
+            "is_infant": false
+        },
+        {
+            "name": "Cynthia Robbins DVM",
+            "seat": "27D",
+            "is_infant": false
+        },
+        {
+            "name": "Darrell Caldwell",
+            "seat": "27E",
+            "is_infant": false
+        },
+        {
+            "name": "Kelly Sanford",
+            "seat": "27F",
+            "is_infant": false
+        },
+        {
+            "name": "Scott Ruiz",
+            "seat": "28C",
+            "is_infant": false
+        },
+        {
+            "name": "Kathy Frank",
+            "seat": "28D",
+            "is_infant": false
+        },
+        {
+            "name": "Monica Garza",
+            "seat": "29A",
+            "is_infant": false
+        },
+        {
+            "name": "Caroline Johns",
+            "seat": "29E",
+            "is_infant": false
+        },
+        {
+            "name": "Lauren Fitzgerald",
+            "seat": "29F",
+            "is_infant": false
+        },
+        {
+            "name": "Tina Walsh",
+            "seat": "2A",
+            "is_infant": false
+        },
+        {
+            "name": "Douglas Cooper MD",
+            "seat": "2D",
+            "is_infant": false
+        },
+        {
+            "name": "Jonathan Shelton",
+            "seat": "2F",
+            "is_infant": false
+        },
+        {
+            "name": "Donald Hull",
+            "seat": "30A",
+            "is_infant": false
+        },
+        {
+            "name": "Rita Costa",
+            "seat": "30B",
+            "is_infant": false
+        },
+        {
+            "name": "Susan Torres",
+            "seat": "30C",
+            "is_infant": false
+        },
+        {
+            "name": "David Mcclure",
+            "seat": "3C",
+            "is_infant": false
+        },
+        {
+            "name": "Crystal Perez",
+            "seat": "3D",
+            "is_infant": false
+        },
+        {
+            "name": "Randy Durham",
+            "seat": "4A",
+            "is_infant": false
+        },
+        {
+            "name": "Scott Evans",
+            "seat": "4C",
+            "is_infant": false
+        },
+        {
+            "name": "Bradley Mason",
+            "seat": "4D",
+            "is_infant": false
+        },
+        {
+            "name": "Michelle Bishop",
+            "seat": "5D",
+            "is_infant": false
+        },
+        {
+            "name": "Mathew Carlson",
+            "seat": "5F",
+            "is_infant": false
+        },
+        {
+            "name": "Angela Moore",
+            "seat": "6C",
+            "is_infant": false
+        },
+        {
+            "name": "Joanne Thomas",
+            "seat": "6F",
+            "is_infant": false
+        },
+        {
+            "name": "Wendy Holmes",
+            "seat": "7D",
+            "is_infant": false
+        },
+        {
+            "name": "Jason Jones Jr.",
+            "seat": "8C",
+            "is_infant": false
+        },
+        {
+            "name": "Justin Shelton",
+            "seat": "9F",
+            "is_infant": false
+        }
+    ]
+}
