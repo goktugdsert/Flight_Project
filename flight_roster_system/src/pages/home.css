@@ -1,0 +1,303 @@
+/* GENERAL LAYOUT */
+.home-dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  padding-bottom: 100px;
+  font-family: sans-serif;
+}
+
+/* DASHBOARD CARDS */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.stat-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+  border: 1px solid #f0f0f0;
+  transition: transform 0.2s;
+}
+
+.stat-card:hover {
+  transform: translateY(-3px);
+}
+
+.stat-title { font-size: 0.85rem; color: #888; font-weight: 600; text-transform: uppercase; margin-bottom: 5px; }
+.stat-value { font-size: 1.8rem; font-weight: 700; color: #333; margin: 0; }
+.stat-icon-box {
+  width: 50px; height: 50px; border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+}
+
+/* SEARCH AND FILTER AREA */
+.search-section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.02);
+  margin-bottom: 25px;
+  border: 1px solid #eee;
+}
+
+.section-title {
+  display: flex; align-items: center; gap: 10px;
+  color: #800000; font-size: 1.1rem; margin-top: 0; margin-bottom: 15px;
+}
+
+/* Home Filter Grid */
+.filter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  gap: 20px;
+  align-items: end; 
+}
+
+.filter-group {
+  width: 100%;
+}
+
+.filter-group label {
+  display: block; 
+  font-size: 0.85rem; 
+  font-weight: 600; 
+  color: #555; 
+  margin-bottom: 8px; 
+}
+
+/* STYLING FOR INPUTS AND SELECTS */
+.main-search-input {
+  width: 100%; 
+  height: 45px; /* Fixed Height */
+  padding: 0 15px; 
+  background-color: #ffffff; 
+  color: #333333; 
+  border: 1px solid #d1d5db; 
+  border-radius: 8px; 
+  font-size: 0.95rem; 
+  outline: none; 
+  box-sizing: border-box;
+  transition: all 0.2s;
+  appearance: none; 
+  -webkit-appearance: none;
+}
+
+.main-search-input:focus { 
+  border-color: #800000; 
+  box-shadow: 0 0 0 3px rgba(128, 0, 0, 0.1);
+}
+
+/* FILTER BUTTON STYLING */
+.filter-btn {
+  width: 100%; 
+  height: 45px; 
+  background-color: #800000; 
+  color: white; 
+  border: none; 
+  border-radius: 8px; 
+  cursor: pointer; 
+  font-weight: 600;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.filter-btn:hover { 
+  background-color: #600000; 
+}
+
+/* TABLE STRUCTURE */
+.flight-list-container {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+  overflow: hidden;
+}
+
+.list-header, .list-row {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1.2fr 2fr 1fr; 
+  padding: 15px 25px;
+  align-items: center; /* Vertical alignment */
+}
+
+/* HEADER STYLE */
+.list-header {
+  background-color: #f9fafb;
+  border-bottom: 1px solid #e0e0e0;
+  font-weight: 600; color: #555; font-size: 0.9rem;
+}
+
+/* ROW STYLE */
+.list-row {
+  border-bottom: 1px solid #f5f5f5;
+  font-size: 0.95rem; color: #333;
+}
+.list-row:hover { background-color: #fff1f2; }
+
+/* Column Content */
+.col { 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  white-space: nowrap; 
+}
+
+/* Using flex in headers to align icons and text */
+.list-header .col {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Centering the Action column */
+.list-header .col.justify-center {
+  justify-content: center; 
+}
+
+.list-row .col.align-right {
+  display: flex;
+  justify-content: center; 
+  text-align: center;
+}
+
+/* TYPOGRAPHY AND BUTTONS */
+.font-bold { font-weight: 600; }
+.text-muted { color: #666; }
+.text-small { font-size: 0.85rem; }
+.color-primary { color: #800000; }
+
+.view-roster-btn {
+  background-color: #5a0f0f; 
+  color: white; 
+  border: none; 
+  padding: 8px 16px; 
+  border-radius: 20px;
+  font-size: 0.8rem; 
+  cursor: pointer; 
+  display: inline-flex; 
+  align-items: center; 
+  gap: 5px; 
+  white-space: nowrap; 
+}
+
+/* SPECIFIC STYLES FOR SAVED ROSTERS */
+.flex-between { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.page-title { 
+  margin: 0; 
+  font-size: 1.5rem; 
+  color: #333; 
+}
+
+.page-subtitle { 
+  margin: 5px 0 0 0; 
+  color: #666; 
+  font-size: 0.9rem; 
+}
+
+.search-wrapper-simple { 
+  position: relative; 
+  width: 320px; 
+}
+
+.search-icon-simple { 
+  position: absolute; 
+  left: 12px; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  color: #888; 
+}
+
+.search-input-simple { 
+  width: 100%; 
+  height: 42px; 
+  padding: 0 15px 0 38px; 
+  border-radius: 8px; 
+  border: 1px solid #d1d5db; 
+  background-color: #ffffff; 
+  color: #333;
+  outline: none; 
+  box-sizing: border-box;
+  font-size: 0.9rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  transition: all 0.2s;
+}
+
+.search-input-simple:focus {
+  border-color: #800000;
+  box-shadow: 0 0 0 3px rgba(128, 0, 0, 0.1);
+}
+
+.mt-20 { margin-top: 20px; }
+
+/* Saved Rosters Table Grid Adjustment */
+.saved-rosters-grid {
+  grid-template-columns: 1.5fr 1fr 1.5fr 1fr 1.5fr !important;
+}
+
+/* Helper Classes */
+.flex-center-gap { 
+  display: flex; 
+  align-items: center; 
+  gap: 8px; 
+}
+
+.flex-end-gap { 
+  display: flex; 
+  justify-content: center; 
+  gap: 10px; 
+}
+
+.badge-green { 
+  /* Green badge in Saved Roster */
+  background: #e8f5e9; 
+  color: #2ecc71; 
+  padding: 4px 8px; 
+  border-radius: 4px; 
+  font-size: 0.8rem; 
+  font-weight: 600; 
+  display: flex; 
+  align-items: center; 
+  gap: 4px; 
+  width: fit-content; /* Expand based on content */
+}
+
+.btn-action { 
+  border: none; 
+  padding: 6px 14px; 
+  border-radius: 6px; 
+  cursor: pointer; 
+  display: flex; 
+  align-items: center; 
+  gap: 6px; 
+  font-size: 0.8rem; 
+  font-weight: 500; 
+  transition: background-color 0.2s;
+}
+
+.btn-open { background: #f3f4f6; color: #374151; }
+.btn-open:hover { background-color: #e5e7eb; }
+
+.btn-delete { background: #fef2f2; color: #dc2626; }
+.btn-delete:hover { background-color: #fee2e2; }
+
+.empty-state { 
+  padding: 50px; 
+  text-align: center; 
+  color: #9ca3af; 
+  font-style: italic;
+}

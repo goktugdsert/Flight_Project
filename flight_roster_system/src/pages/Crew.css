@@ -1,0 +1,159 @@
+.crew-page-container {
+  padding: 20px;
+}
+
+/* 3-COLUMN GRID LAYOUT */
+.crew-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+/* CARD STYLE */
+.crew-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+  border: 1px solid #eee;
+  padding: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.crew-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* HEADER */
+.crew-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.crew-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #f0f0f0;
+}
+
+.crew-title-box h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+  font-weight: 700;
+}
+
+.crew-id {
+  font-size: 0.75rem;
+  color: #888;
+  font-family: monospace;
+}
+
+/* BADGES (Labels) */
+.status-badge {
+  margin-left: auto;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Pilot Seniority Colors */
+.status-badge.senior { background-color: #e0f2fe; color: #0369a1; }
+.status-badge.junior { background-color: #f0fdf4; color: #15803d; }
+.status-badge.trainee { background-color: #fefce8; color: #a16207; }
+
+/* Cabin Crew Type Colors */
+.status-badge.type-chief { background-color: #f3e8ff; color: #7e22ce; } /* Purple */
+.status-badge.type-chef { background-color: #fee2e2; color: #991b1b; } /* Red (Chef) */
+.status-badge.type-regular { background-color: #f3f4f6; color: #374151; } /* Grey */
+
+/* BODY */
+.crew-body {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.info-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.icon-muted { color: #9ca3af; }
+
+/* CHEF RECIPES BOX */
+.chef-recipes-box {
+  background-color: #fff7ed;
+  border: 1px solid #ffedd5;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+
+.recipe-title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 700;
+  color: #c2410c;
+  margin-bottom: 4px;
+}
+
+.chef-recipes-box p {
+  margin: 0;
+  color: #555;
+  font-style: italic;
+}
+
+/* DIVIDER AND FOOTER */
+.divider {
+  height: 1px;
+  background-color: #eee;
+  margin: 15px 0;
+}
+
+.crew-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.tech-item.full-width {
+  width: 100%;
+}
+
+.tech-label {
+  font-size: 0.65rem;
+  color: #999;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+
+.tech-val {
+  font-size: 0.85rem;
+  color: #333;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

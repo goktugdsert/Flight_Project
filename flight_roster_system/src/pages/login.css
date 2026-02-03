@@ -1,0 +1,227 @@
+/* Login.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+  overflow: hidden; 
+}
+
+.login-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* --- LEFT SIDE (Form Area) --- */
+.login-left {
+  flex: 1.2; 
+  background-color: #ededed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative; 
+}
+
+/* Form Wrapper */
+.login-form-wrapper {
+  z-index: 10; /* Stays in front of the clouds */
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.welcome-container {
+  margin-bottom: 30px; 
+  text-align: center; 
+}
+
+/* Main Title */
+.welcome-title {
+  margin: 0 0 10px 0; 
+  font-size: 1.8rem; 
+  color: #800000; 
+  font-weight: 800; 
+  line-height: 1.3; 
+}
+/* Subtitle */
+.welcome-subtitle {
+  margin: 0;
+  color: #666;
+  font-size: 1rem; 
+  font-weight: 500;
+}
+/* Input Groups */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-group label {
+  font-size: 0.9rem;
+  color: #333;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.styled-input {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 25px; 
+  border: 1px solid #a52a2a; 
+  background-color: white;
+  color: #333333;
+  outline: none;
+  font-size: 1rem;
+  box-sizing: border-box; 
+  transition: box-shadow 0.2s;
+}
+
+.styled-input:focus {
+  box-shadow: 0 0 0 3px rgba(165, 42, 42, 0.1);
+}
+
+/* Login Button */
+.login-btn {
+  background-color: #990000; 
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+.login-btn:hover {
+  background-color: #7a0000;
+}
+
+/* --- DECORATIVE CLOUDS --- */
+.cloud-img {
+  position: absolute;
+  opacity: 0.9;
+  pointer-events: none; 
+}
+
+.cloud-top {
+  top: -60px; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 250px; 
+}
+
+.cloud-bottom {
+  bottom: -40px;
+  left: -40px;
+  width: 280px;
+}
+
+/* --- RIGHT SIDE (Image Area) --- */
+.login-right {
+  flex: 1; 
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden; /* Hide if image overflows */
+}
+
+.plane-illustration {
+  max-width: 90%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .login-container {
+    flex-direction: column;
+  }
+  .login-right {
+    display: none; /* Hide plane image on mobile */
+  }
+}
+
+/* --- ANIMATED CLOUDS --- */
+
+/* Container for clouds (important for hiding overflow) */
+.clouds-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none; /* Allows clicks to pass through to the form */
+  z-index: 1; /* Stay behind the form (z-index: 10) */
+}
+
+/* Common style for all clouds */
+.cloud-item {
+  position: absolute;
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* Gentle Floating Animation (Left-Right) */
+@keyframes floatCloud {
+  0% { transform: translateX(0px) translateY(0px); }
+  50% { transform: translateX(20px) translateY(-10px); } /* Slight move right and up */
+  100% { transform: translateX(0px) translateY(0px); }
+}
+
+/* --- Specific Position and Speed for Each Cloud --- */
+
+/* Big Cloud Top Left */
+.c1 {
+  top: -50px;
+  left: -50px;
+  width: 250px;
+  opacity: 0.9;
+  animation: floatCloud 8s ease-in-out infinite;
+}
+
+/* Small Cloud Top Right */
+.c2 {
+  top: 40px;
+  right: 10%; /* Towards the right of the grey area */
+  width: 120px;
+  opacity: 0.6;
+  animation: floatCloud 12s ease-in-out infinite reverse; /* Move in reverse direction */
+}
+
+/* Medium Cloud Bottom Left */
+.c3 {
+  bottom: 80px;
+  left: -20px;
+  width: 180px;
+  opacity: 0.8;
+  animation: floatCloud 10s ease-in-out infinite 1s; /* Start with 1s delay */
+}
+
+/* Tiny Blurred Cloud Center/Background (Adds depth) */
+.c4 {
+  top: 40%;
+  left: 20%;
+  width: 80px;
+  opacity: 0.4;
+  filter: blur(2px); /* Blur effect */
+  animation: floatCloud 15s ease-in-out infinite;
+}
+
+/* Big Cloud Bottom Right */
+.c5 {
+  bottom: -60px;
+  right: -40px;
+  width: 300px;
+  opacity: 0.9;
+  animation: floatCloud 9s ease-in-out infinite reverse;
+}

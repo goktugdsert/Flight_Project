@@ -1,0 +1,184 @@
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* Global Reset */
+body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Main Container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f0f2f5;
+}
+
+/* ===== HEADER ===== */
+.app-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 24px;
+  height: 65px;
+  
+  /* --- IMAGE SETTINGS --- */
+  background-color: #ffffff; 
+  background-image: url('/header.png'); 
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: auto 100%; 
+  
+  border-bottom: 1px solid #e0e0e0;
+  flex-shrink: 0;
+  z-index: 20; 
+}
+
+.header-right {
+  display: flex;
+  gap: 12px;
+}
+
+.header-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  background-color: #f9f9f9;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.header-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.exit-btn {
+  color: #800000;
+}
+
+/* ===== BODY (Sidebar + Content) ===== */
+.app-body {
+  display: flex;
+  flex: 1; 
+  overflow: hidden; 
+}
+
+/* ===== SIDEBAR ===== */
+.app-sidebar {
+
+  width: 60px; 
+  background-color: #ffffff;
+  border-right: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 5px; 
+  transition: width 0.3s ease;
+  z-index: 10;
+}
+
+/* OPEN STATE */
+.app-sidebar.open {
+  width: 260px; 
+  padding: 20px 10px; 
+  align-items: flex-start; 
+}
+
+.sidebar-top, .sidebar-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+/* BUTTONS */
+.sidebar-icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  
+  width: 100%;
+  height: 45px; 
+  background: transparent;
+  border: none;
+  color: #555;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  
+  white-space: nowrap; 
+  overflow: hidden;
+}
+
+.sidebar-icon-btn:hover {
+  background-color: #f3f4f6;
+  color: #800000; 
+}
+
+.toggle-btn {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Change button alignment when sidebar is open */
+.app-sidebar.open .sidebar-icon-btn {
+  justify-content: flex-start; 
+  padding-left: 20px; 
+}
+
+/* TEXT (Sidebar Labels) */
+.sidebar-text {
+  display: none;
+  opacity: 0;
+  width: 0;
+  margin-left: 0;
+  transition: opacity 0.2s ease;
+}
+
+.app-sidebar.open .sidebar-text {
+  display: inline-block;
+  opacity: 1;
+  width: auto;
+  margin-left: 15px;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+/* ===== MAIN CONTENT ===== */
+.app-content {
+  flex: 1;
+  position: relative;
+  background-color: #f8f9fa;
+  overflow: hidden;
+}
+
+.content-wrapper {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  padding: 30px;
+  overflow-y: auto;
+  z-index: 2; 
+}
+
+.background-clouds {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.6;
+  pointer-events: none;
+  z-index: 1;
+}
